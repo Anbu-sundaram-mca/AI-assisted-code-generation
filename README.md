@@ -31,6 +31,18 @@ Codia AI leverages artificial intelligence to convert Figma designs or natural l
 - **Customization:** Less customizable than manual coding.
 - **Still evolving:** Newer platform, features may change rapidly.
 
+**Pros**
+- **Fast prototyping:** Instantly converts Figma or text prompts into usable front-end code, ideal for speed.
+- **AI-driven:** Reduces manual coding effort, especially for UI scaffolding.
+- **Clean code output:** Generates readable, maintainable HTML, CSS, React, and Next.js code.
+- **Design system support:** Encourages reusable components and design tokens.
+
+**Cons**
+- **Front-end only:** No backend or API integration—strictly UI code.
+- **Limited logic:** Cannot handle advanced business logic or complex state management.
+- **Customization:** Less flexible than hand-written code for edge cases.
+- **Platform maturity:** Feature set may change rapidly; evolving platform.
+
 ---
 
 ## 2. DhiWise
@@ -58,6 +70,19 @@ DhiWise is a developer-focused platform for full-stack code generation. It trans
 - **Figma structure dependency:** Messy files can degrade output quality.
 - **Not designed for non-developers:** More suited for engineers.
 
+**Pros**
+- **Full-stack automation:** Generates both front-end and backend code from design and API docs.
+- **Developer control:** Lets you review, edit, and sync code with GitHub before deployment.
+- **Rich features:** Handles roles, navigation, auth, and boilerplate automatically.
+- **Flexible deployment:** Direct deployments from platform; supports REST APIs.
+- **Supports multiple frameworks:** React, Flutter, Node.js, Next.js.
+
+**Cons**
+- **Learning curve:** Requires understanding app structure and development basics.
+- **Output volume:** May generate excess/unused code for simple use cases.
+- **Design dependency:** Quality depends on how well Figma files are structured.
+- **Not for non-developers:** Best suited for engineers, not citizen developers or designers.
+
 ---
 
 ## 3. Builder.io (Figma to Code)
@@ -84,6 +109,19 @@ Builder.io offers a visual, drag-and-drop interface for creating websites and ap
 - **Vendor lock-in risk:** Exporting may require staying in their ecosystem.
 - **Code quality:** Can be less clean than hand-written or DhiWise-generated code.
 - **Complex logic workarounds:** Advanced features may need custom code outside the builder.
+
+**Pros**
+- **No-code/low-code:** Enables non-developers/designers to build UIs visually.
+- **Drag-and-drop:** Intuitive WYSIWYG editing, fast prototyping.
+- **Broad framework support:** Integrates with React, Angular, Vue, HTML/CSS.
+- **Live editing:** Real-time component updates.
+- **Headless CMS:** Powerful for content-driven sites and eCommerce.
+
+**Cons**
+- **Front-end focus:** No backend or advanced business logic support.
+- **Vendor lock-in:** Exported code may tie you to Builder.io’s ecosystem.
+- **Code cleanliness:** Output can be less clean than hand-coded or DhiWise-generated code.
+- **Complex logic:** Workarounds needed for advanced features not supported visually.
 
 ---
 
